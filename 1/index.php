@@ -8,16 +8,19 @@
 </head>
 
 <body>
-<pre>
-
+<ul>
 <?php
 	require 'inc/DirContent.php';
 
 	$folder = new DirContent('./');
-	print_r($folder->getList(array('inc')));
-
+	$list = $folder->getList(array('inc'));
+	$n = count($list);
+	for ($i = 0; $i < $n; $i++) :
 ?>
-
-</pre>
+	<li><a href="<?php echo $list[$i]; ?>"><?php echo $list[$i]; ?></a></li>
+<?php
+	endfor;
+?>
+</ul>
 </body>
 </html>

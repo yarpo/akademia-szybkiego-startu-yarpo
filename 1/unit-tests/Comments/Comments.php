@@ -11,7 +11,7 @@ class Comments
 	const NICK    = 'nick';
 	const CONTENT = 'content';
 	const SEND    = 'send';
-	
+
 	const COMMENTS_ON_PAGE = 10;
 
 	public function handleAddingRequest()
