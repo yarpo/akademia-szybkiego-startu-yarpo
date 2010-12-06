@@ -17,10 +17,6 @@
 	$n = count($list);
 	for ($i = 0; $i < $n; $i++) :
 ?>
-	<li><a href="<?php echo $list[$i]; ?>"><?php echo $list[$i]; ?></a></li>
-<?php
-	endfor;
-?>
-</ul>
-</body>
-</html>
+
+
+jbjhvjuhvgbjhvgvghvytgv u t yttfytft ftfofto6 f
