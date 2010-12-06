@@ -2,7 +2,7 @@
 require_once 'PHPUnit/Framework.php';
 require_once '../struktury.php';
 
-class StackTest extends PHPUnit_Framework_TestCase
+class StrukturyTest extends PHPUnit_Framework_TestCase
 {
 	private function getKwadrat( $bok )
 	{
