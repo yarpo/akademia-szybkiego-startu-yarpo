@@ -6,9 +6,6 @@
  * @data: 5 11 2010 r.
  * */
 
-
-/// hahahahahaha
-
 class Comments
 {
 	const NICK    = 'nick';
