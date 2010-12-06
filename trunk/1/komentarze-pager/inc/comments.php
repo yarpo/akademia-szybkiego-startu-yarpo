@@ -6,6 +6,9 @@
  * @data: 5 11 2010 r.
  * */
 
+
+/// hahahahahaha
+
 class Comments
 {
 	const NICK    = 'nick';
@@ -58,7 +61,7 @@ class Comments
 		$pdo = new PDO(
 			'mysql:host=localhost;dbname=comments',
 			'root',
-			'123');
+			'');
 		$sql = "INSERT INTO comments VALUES (NULL, "
 			. "'" . $this->escape($input[self::NICK]) . "'," 
 			. "'" . $this->escape($input[self::CONTENT]) . "')";
@@ -84,7 +87,7 @@ class Comments
 		$pdo = new PDO(
 			'mysql:host=localhost;dbname=comments',
 			'root',
-			'123');
+			'');
 
 		$sql = "
 			SELECT 
@@ -104,7 +107,7 @@ class Comments
 		$pdo = new PDO(
 			'mysql:host=localhost;dbname=comments',
 			'root',
-			'123');
+			'');
 
 		$colName = 'res';
 
