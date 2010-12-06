@@ -13,7 +13,7 @@ class Funkcje
 
 	public static function poleTrojkata( Trojkat $trojkat )
 	{
-		return 1/2 * ($trojkat->podstawa * $trojkat->wysokosc);
+		return 1/3 * ($trojkat->podstawa * $trojkat->wysokosc);
 	}
 }
 
