@@ -56,7 +56,7 @@ class Comments
 		$pdo = new PDO(
 			'mysql:host=localhost;dbname=comments',
 			'root',
-			'123');
+			'');
 		$sql = "INSERT INTO comments VALUES (NULL, "
 			. "'" . $this->escape($input[self::NICK]) . "'," 
 			. "'" . $this->escape($input[self::CONTENT]) . "')";
@@ -82,7 +82,7 @@ class Comments
 		$pdo = new PDO(
 			'mysql:host=localhost;dbname=comments',
 			'root',
-			'123');
+			'');
 
 		$sql = "
 			SELECT 
